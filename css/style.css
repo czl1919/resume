@@ -86,11 +86,19 @@ hr {
 /* banner-end */
 
 
+/* main-start */
+body > main {
+    margin-top: -350px;
+}
+/* main-end */
+
+
 /* user_card-start */
 .user_card {
     max-width: 940px;
     border: 1px solid #000;
     margin: 0 auto;
+    background-color: #fff;
 }
 .user_card .profile {
     padding: 50px;
@@ -148,3 +156,21 @@ hr {
     vertical-align: top;
 }
 /* user_card-end */
+
+
+/* download_resume-start */
+.download_resume_wrapper {
+    text-align: center;
+}
+.download_resume_wrapper .download_resume {
+    margin-top: 35px;
+    display: inline-block;
+    padding: 15px 55px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    transition: box-shadow .2s;
+}
+.download_resume_wrapper .download_resume:hover {
+    box-shadow: 8px 9px 22px -7px rgba(0,0,0,0.55); 
+}
+/* download_resume-end */
